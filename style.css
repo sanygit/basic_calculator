@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Ubuntu:wght@300&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top left, #e2d9d9, #90c6f4);
+}
+
+
+
+.elments-container {
+    width: 428px;
+    height: 410px;
+    border: solid black;
+    border-radius: 10px;
+    background-color: #afafbd;
+    margin: 5px 0px 5px 0px;
+    box-shadow: 2px 2px 5px #030404;
+}
+
+.input {
+    width: 406px;
+    margin: 10px 0px 5px 5px;
+    height: 69px;
+    color: aliceblue;
+    border-radius: 0%;
+    font-size: 25px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    box-shadow: 4px 4px black;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#divide-opr,
+#operator-multiply,
+#operator-minus,
+#operator-plus,
+#operator-is-equl-to {
+    width: 96px;
+    height: 52px;
+    margin: 5px;
+    float: left;
+    border-radius: 12%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e8d61c;
+    color: black;
+    cursor: pointer;
+    box-shadow: 4px 4px;
+}
+
+.operator {
+    width: 96px;
+    height: 52px;
+    margin: 5px;
+    float: left;
+    border-radius: 12%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e8d61c;
+    color: black;
+    cursor: pointer;
+    box-shadow: 4px 4px;
+}
+
+.operator-font {
+    width: 96px;
+    height: 52px;
+    margin: 5px;
+    float: left;
+    border-radius: 12%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e8d61c;
+    color: black;
+    cursor: pointer;
+    box-shadow: 4px 4px;
+}
+
+.operator:hover {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.operator-font :hover {
+    font-size: 30px;
+    /* font-weight: 400; */
+}
+
+.text {
+ 
+    font-weight: bold;
+    font-size: 14px;
+    margin: 77px 0px 0px -15px;
+    font-family: 'Cedarville Cursive', 'cursive';
+    font-style: italic;
+}
+
+@media (max-width:479px) {
+    .elments-container {
+        width: 214px ;
+        height: 400px;
+    }
+}
